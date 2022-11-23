@@ -1,0 +1,19 @@
+{
+  "name": "preentrega2romeropino",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ezefrp/PreEntrega2-RomeroPino.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Ezefrp/PreEntrega2-RomeroPino/issues"
+  },
+  "homepage": "https://github.com/Ezefrp/PreEntrega2-RomeroPino#readme",
+  "description": ""
+}
