@@ -1,0 +1,90 @@
+*{
+    box-sizing: border-box;
+}
+
+.section__contacto{
+    margin: 4rem;
+}
+
+.content{
+    padding: 1.5rem;
+    text-align: center;
+    font-size: 2rem;
+    font-family: 'Trispace', sans-serif;
+
+h2{
+    text-align: center;
+    font-size: 3rem;
+    padding-bottom: 3rem;
+    font-family: 'Trispace', sans-serif;
+    background: rgb(236, 233, 233);
+}
+}
+
+.content__wrapper{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background: whitesmoke;
+    font-family: 'Trispace', sans-serif;
+    padding: 0 3rem;
+    box-shadow: 0 0 20px 0 rgb(0, 0, 0, .5); 
+}
+
+.content__wrapper > *{
+    padding: 1rem;
+}
+
+.label__lab{
+    font-size: 1.5rem;
+}
+
+.contact__form form{
+    margin: 0;
+    padding: 1rem;
+}
+
+.contact__form form  p button,
+.contact__form form  p input,
+.contact__form form p textarea {
+    width: 100%;
+    padding: .7rem;
+    border: none;
+    background: none;
+    outline: 0;
+    border-bottom: 1px solid palevioletred;
+}
+
+.contact__form form  p button{
+    background: #b9676a;
+    border: 0;
+    padding: 1rem;
+} 
+
+.contact__form form  p button:hover,
+.contact__form form  p button:focus {
+    background-color: #961c20;
+    color: aliceblue;
+    transition: background-color 1s ease-out;
+}  
+
+.contact__info{
+    font-size: 1.5rem;
+    line-height: 4.4rem;
+    
+}
+.card {
+    max-width: 100%;
+}
+@media (max-width: 768px){
+    .card{
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
+
+@media (max-width: 768px){
+    .content__wrapper {
+        display: grid;
+        grid-template-columns: 100fr;
+    }
+}
