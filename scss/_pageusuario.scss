@@ -1,0 +1,42 @@
+.section__usuario{
+    margin: rem;
+    text-align: center;
+    box-shadow: 0 0 20px 0 rgb(0, 0, 0, .5);
+    width: 100%;
+p{
+    font-size: 2rem;
+    box-sizing: content-box;
+    padding: 0 3rem;
+    margin: 1rem;
+    
+    
+}
+}
+form p,
+.usuario_wrapper form p label,
+.usuario__wrapper form p input {
+text-align: left;
+width: 100%
+}
+.form__usuario{
+    margin: 100px;
+    padding: 2rem;
+}
+.boton__cuenta{
+    background: #b9676a;
+    border: 0;
+    padding: 1rem;
+    margin-top: 2rem;
+    width: 100%;
+}
+.boton__cuenta:hover,
+.boton__cuenta:focus {
+    background-color: #961c20;
+    color: aliceblue;
+    transition: background-color 1s ease-out; 
+
+}
+
+.sass{
+    color: #961c20;
+}

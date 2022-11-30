@@ -1,0 +1,29 @@
+.grid__productos--container > *{
+    box-shadow: -1px 1px 7px 0px black;
+border-radius: 4px;
+padding: 10px;
+text-align: center;
+}
+
+.grid__productos--container{
+    display: gri;
+    gap: px;
+    grid-template-areas: 
+    "sidebar"
+    "productos";
+}
+
+.sidebar{
+    grid-area: sidebar;
+    
+    
+}
+
+.productos__main{
+    grid-template-columns: productos;
+}
+
+.dropdowns{
+padding: 10px;
+text-align: center;
+}
